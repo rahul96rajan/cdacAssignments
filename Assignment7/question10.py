@@ -1,4 +1,4 @@
-# Q10. . Write a python program to extract all the email addresses
+# Q10. Write a python program to extract all the email addresses
 # from the given string and print the output as shown below:
 # Input String:
 # “email address alibaba1_@google.com  second email address abc_12@gmail.com”
@@ -13,9 +13,14 @@ import re
 
 
 def fetch_ID_and_domain(string):
-    reg_ID = re.compile(r"\b\w+(?=@)")
-    reg_domain = re.compile(r"(?<=@)\w+(?=\.)")
-    # (\b\w+)@(\w+\.(\w+))
+    reg_email = re.compile(r"(\b\S+)@(\S+\.(\S+))")
+    counter = 1
+    for match in re.finditer(reg_email, string):
+        print(
+                "\nEmail ID %d: " % counter, match.group(0),
+                "\nUsername %d: " % counter, match.group(1),
+                "\nDomain %d: " % counter, match.group(2))
+        counter += 1
 
 
 def main():
