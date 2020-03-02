@@ -4,14 +4,6 @@
 
 
 def matching_string_in_string(string1, string2):
-    # reg = re.compile(string2)
-    # found = re.search(reg, string2)
-    # print(found, found.group(), found.span())
-    # if found is None:
-    #     return string2 + " is not present in " + string1
-    # else:
-    #     return string2 + " is present in " + string1 + " at " +\
-    #          str(found.span())
     if string1.find(string2) == -1:
         return string2 + " is not present in " + string1
     else:
