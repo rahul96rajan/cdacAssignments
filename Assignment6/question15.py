@@ -1,6 +1,5 @@
 # Q15. Write a Python program to search a literals string in a string and also
 # find the location within the original string where the pattern occurs.
-# import re
 
 
 def matching_string_in_string(string1, string2):
