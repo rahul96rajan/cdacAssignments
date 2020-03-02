@@ -24,4 +24,5 @@ def main():
     lim = input_positive_integer("Please Enter the number of terms : ")
     print_pattern(lim)
 
+
 main()
