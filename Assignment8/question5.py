@@ -4,6 +4,7 @@
 
 from question4 import Polygon
 from functools import reduce
+from math import sqrt
 
 
 class Traingle(Polygon):
@@ -11,7 +12,13 @@ class Traingle(Polygon):
         super().__init__(3)
 
     def calculate_area(self):
-        return reduce(lambda x, y: x*y, self.sides.values())
+        s = (reduce(lambda x, y: x+y, self.sides.values()))/2
+        q = s
+        print("S:", id(s))
+        print("Q:", id(q))
+        for x in self.sides.values():
+            q *= s - x
+        return sqrt(q)
 
 
 tr = Traingle()
