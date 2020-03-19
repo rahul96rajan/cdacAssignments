@@ -22,8 +22,6 @@ def input_decimal_list():
     # return [input("Enter term %d : " % x) for x in range(no)]
 
 
-def main():
-    print(input_decimal_list())
-
-
-main()
+if __name__ == "__main__":
+    print("List of element divisible by only 13 are : ",
+          list(filter(lambda x: x % 13 == 0, input_decimal_list())))
