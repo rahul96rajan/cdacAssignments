@@ -1,10 +1,11 @@
-# Q4: Write a Python Program to find the factors of a number
+""" Q4: Write a Python Program to find the factors of a number """
 
-from question2 import input_positive_integer
 import time
+from question2 import input_positive_integer
 
 
 def factors(num):
+    """ Accepts a string and return a list of factors of the number. """
     i = 1
     lst = []
     head = i
@@ -22,7 +23,7 @@ def factors(num):
 
 
 if __name__ == "__main__":
-    num = input_positive_integer("Enter any positive integer : ")
+    number = input_positive_integer("Enter any positive integer : ")
     start_time = time.time()
-    print("Factors of '{0}' are {1}".format(num, factors(num)))
+    print("Factors of '{0}' are {1}".format(number, factors(number)))
     print("Time Taken is '%s' Seconds" % (time.time() - start_time))
