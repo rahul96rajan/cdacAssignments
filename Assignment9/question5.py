@@ -4,13 +4,13 @@
 from question2 import input_positive_integer
 
 
-def get_integer_tuple(string):
+def get_float_tuple(string):
     lst = string.strip().split(",")
     for i in range(len(lst)):
         try:
-            lst[i] = int(lst[i])
+            lst[i] = float(lst[i])
         except ValueError:
-            print("[WARNING] String contains not integer value(s)!")
+            print("[WARNING] String contains not floating point value(s)!")
             return None
     return tuple(lst)
 
@@ -67,7 +67,7 @@ def calculator():
     while(True):
         printMenu()
         option = input_positive_integer("Select an option : ")
-        numbers = get_integer_tuple(input("Please input the values "
+        numbers = get_float_tuple(input("Please input the values "
                                           "(comma-separated): "))
         print(numbers)
         print(calc_func.get(option, wrongOption)(*tuple(numbers)))
@@ -78,3 +78,5 @@ def calculator():
 
 if __name__ == "__main__":
     calculator()
+
+# Here I have already mentioned to run calculator() iff its exectuted from the file itself.
