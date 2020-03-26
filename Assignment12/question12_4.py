@@ -17,6 +17,7 @@ LEFT 3
 RIGHT 2
 Then, the output of the program should be: (-1.0, 2.0)'''
 
+
 def is_float(num):
     try:
         float(num)
