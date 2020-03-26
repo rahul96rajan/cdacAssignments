@@ -12,3 +12,7 @@
 >1. Open git-bash/terminal
 
 >2. Type ```git clone https://github.com/rahul96rajan/cdacAssignments.git```
+
+<div style="text-align: center">
+    <img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Frahul96rajan%2FcdacAssignments" alt="Hits">
+</div>
