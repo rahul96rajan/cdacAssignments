@@ -78,5 +78,3 @@ def calculator():
 
 if __name__ == "__main__":
     calculator()
-
-# Here I have already mentioned to run calculator() iff its exectuted from the file itself.
