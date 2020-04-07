@@ -8,10 +8,7 @@ number in his program and also restricts the character limit to 100.
 """
 
 
-def get_70_to_80():
-    "returns a string a numbers between 70 to 80"
-    return ", ".join([str(x) for x in range(ord('F'), ord('P'))])
-
-
 if __name__ == "__main__":
-    print(get_70_to_80())
+    print(", ".join([str(x) for x in range(ord('F'), ord('Q'))]))
+
+# number of chars excluding white spaces: 88
