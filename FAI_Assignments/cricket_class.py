@@ -19,8 +19,10 @@ class Cricket(object):
     total_review_appealed = 0
     successful_reviews = 0
     failed_reviews = 0
+    victor = None
     
     # TEAM 1
+    name_t1 = None
     runs_scored_t1 = 0
     no_of_sixes_t1 = 0
     no_of_fours_t1 = 0
@@ -39,6 +41,7 @@ class Cricket(object):
     free_hit_given_t1 = 0
 
     # TEAM 2
+    name_t2 = None
     runs_scored_t2 = 0
     no_of_sixes_t2 = 0
     no_of_fours_t2 = 0
