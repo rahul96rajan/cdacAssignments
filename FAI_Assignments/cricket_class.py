@@ -36,6 +36,7 @@ class Cricket(object):
     wicket_keeper_t1 = None
     bowlers_t1 = None # Expecting comma-seperated names
     fielding_strategy_t1 = None
+    free_hit_given_t1 = 0
 
     # TEAM 2
     runs_scored_t2 = 0
@@ -53,6 +54,7 @@ class Cricket(object):
     wicket_keeper_t2 = None
     bowlers_t2 = None # Expecting comma-seperated names
     fielding_strategy_t2 = None
+    free_hit_given_t2 = 0
 
 
 class International_Cricket(Cricket):
