@@ -1,0 +1,12 @@
+Ludo Game actions
+
+roll_dice()
+note_diceroll_result()
+is_peg_unlockable()
+unlock_peg()
+select_peg_to_move()
+can_step_be_taken()
+is_opponents_peg_strikable()
+strike_opponents_peg()
+is_all_peg_in_home()
+
