@@ -1,5 +1,7 @@
-/*  Jon Snow's Family Tree (GOT) - along with Indian Kinship terms*/
-% Spoilers ahead.
+/*Create a prolog program wher your program should be as extensive as possible with definition of various relations that exist in Indian kinship. */
+
+/*  Jon Snow's Family Tree - along with Indian Kinship terms*/
+% Spoilers ahead; if you haven't watched 'Game of Thrones'.
 
 %%--Facts--%%
 %Gender

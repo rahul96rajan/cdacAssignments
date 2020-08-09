@@ -1,3 +1,4 @@
+/*List Operations*/
 
 %Check Memebership
 member(X,[X|_]).
